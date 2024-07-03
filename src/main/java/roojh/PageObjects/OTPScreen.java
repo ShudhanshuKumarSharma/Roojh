@@ -20,9 +20,17 @@ public class OTPScreen extends AbstractComponents {
 	@FindBy(css = "div[class='roojh-input-box'] input")
 	private WebElement otpField;
 
+	@FindBy(css = ".next-button-center button")
+	WebElement submitOTPButton;
+
 	public void enterOTP(String OTP) {
 		wait_ElementToBeClickable(otpField);
 		otpField.sendKeys(OTP);
+
+	}
+
+	public void clickSubmitOTPButton() {
+		submitOTPButton.click();
 
 	}
 

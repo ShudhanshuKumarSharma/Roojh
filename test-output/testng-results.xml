@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-03T16:36:32 IST" name="Suite" finished-at="2024-07-03T16:36:43 IST" duration-ms="10988">
+  <suite started-at="2024-07-03T17:28:09 IST" name="Suite" finished-at="2024-07-03T17:28:18 IST" duration-ms="9871">
     <groups>
     </groups>
-    <test started-at="2024-07-03T16:36:32 IST" name="Test" finished-at="2024-07-03T16:36:43 IST" duration-ms="10988">
+    <test started-at="2024-07-03T17:28:09 IST" name="Test" finished-at="2024-07-03T17:28:18 IST" duration-ms="9871">
       <class name="roojh.TestScripts.LoginFlow">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:roojh.TestScripts.LoginFlow@5bf0fe62]" started-at="2024-07-03T16:36:32 IST" name="initializeBrowser" finished-at="2024-07-03T16:36:38 IST" duration-ms="6151" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:roojh.TestScripts.LoginFlow@5bf0fe62]" started-at="2024-07-03T17:28:09 IST" name="initializeBrowser" finished-at="2024-07-03T17:28:13 IST" duration-ms="4335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="loginToApp(java.util.HashMap)[pri:0, instance:roojh.TestScripts.LoginFlow@5bf0fe62]" started-at="2024-07-03T16:36:39 IST" name="loginToApp" data-provider="dataProvider" finished-at="2024-07-03T16:36:43 IST" duration-ms="4445" status="PASS">
+        <test-method signature="loginToApp(java.util.HashMap)[pri:0, instance:roojh.TestScripts.LoginFlow@5bf0fe62]" started-at="2024-07-03T17:28:13 IST" name="loginToApp" data-provider="dataProvider" finished-at="2024-07-03T17:28:18 IST" duration-ms="5093" status="PASS">
           <params>
             <param index="0">
               <value>

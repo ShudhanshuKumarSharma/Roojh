@@ -19,8 +19,8 @@ public class LoginFlow extends BaseTestUtils {
 	public void loginToApp(HashMap<String, String> jsonData)
 			throws InterruptedException, IOException, GeneralSecurityException {
 
-		String mobileNumber=jsonData.get("mobileNumber");
-		String OTP= jsonData.get("OTP");
+		String mobileNumber = jsonData.get("mobileNumber");
+		String OTP = jsonData.get("OTP");
 
 		selectUserType.clickOnDoctorUserTypeCard();
 		selectUserType.verifyCheckboxIsSelectedOrNot();
@@ -29,11 +29,10 @@ public class LoginFlow extends BaseTestUtils {
 		MobileNumberPage mobileNumberPage = new MobileNumberPage(driver);
 		mobileNumberPage.enterMobileNumber(mobileNumber);
 		mobileNumberPage.clickOnRequestOTPButton();
-		
-		OTPScreen otpScreen= new OTPScreen(driver);
+
+		OTPScreen otpScreen = new OTPScreen(driver);
 		otpScreen.enterOTP(OTP);
-		
-		
+		otpScreen.clickSubmitOTPButton();
 
 	}
 
